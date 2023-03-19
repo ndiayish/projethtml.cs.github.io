@@ -1,0 +1,79 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: century;
+}
+
+header{
+background-image:url(IMG_1986.JPG);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.logo{
+    color:black;
+    padding: 0px 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow:rgba(0, 0, 0,0.7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.logo span{
+ color: rgb(128, 24, 226);
+ font-weight: bold;
+ font-size: 3rem; 
+  
+}
+ul{
+    list-style: none;
+    float: inline-start;
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%,-70%);
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(22, 8, 130);
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 30px;
+    font-weight:600;
+    transition: 0.8s ease;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    padding-left: 20px ;
+    text-size-adjust: 0.5;
+    font-size: medium;
+    border-radius: 20px;
+   
+}
+ul:hover li:hover a:hover{
+     background:black;
+     color:white;
+}
+ul li.active a{
+    background:black;
+    color: white;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+#zanz:hover
+{
+    background:rgb(0, 0, 0);
+    color:white;
+    background-color: black;
+}
